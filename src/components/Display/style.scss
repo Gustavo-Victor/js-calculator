@@ -1,0 +1,26 @@
+.output {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  align-items: flex-end;
+  gap: 0.2rem;
+  font-family: monospace;
+
+  .result {
+    color: orange;
+    width: 100%;
+    height: auto;
+    min-height: 1.25rem;
+    line-height: 1.25rem;
+    vertical-align: text-top;
+    font-size: 1.2rem;
+  }
+
+  .input {
+    width: 100%;
+    line-height: 35px;
+    font-size: 1.8125rem;
+    color: #ffffff;
+  }
+}

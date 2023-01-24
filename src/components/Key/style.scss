@@ -1,0 +1,46 @@
+button {
+  border: 1px solid transparent;
+  background-color: #666666;
+  outline: none;
+  font-size: 20px;
+  cursor: pointer;
+  min-width: 80px;
+  height: auto;
+  min-height: 60px;
+  color: #fff;
+  font-family: "Share Tech Mono", monospace;
+  transition: border 0.2s ease;
+
+  &:hover {
+    border: 1px solid #eee;
+  }
+
+  &.digit {
+    background-color: #4d4d4d;
+  }
+
+  &#clear {
+    color: #ffffff;
+    background-color: #ac3939;
+    grid-column: span 2;
+  }
+
+  &#zero {
+    grid-column: span 2;
+  }
+
+  &#equals {
+    grid-column: 4/5;
+    grid-row: 4/6;
+    height: auto;
+    color: #ffffff;
+    background-color: #004466;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  button {
+    min-width: unset;
+    width: auto;
+  }
+}

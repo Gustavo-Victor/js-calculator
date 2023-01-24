@@ -1,0 +1,20 @@
+.author {
+  width: 350px;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.625rem;
+
+  a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #00264d;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .author {
+    max-width: 90vw;
+  }
+}
